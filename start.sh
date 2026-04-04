@@ -2,8 +2,6 @@
 
 cd `dirname "$0"`
 
-sleep 10
-
 exec /usr/local/bin/sbcl --noinform \
                          --no-userinit \
                          --disable-debugger \
