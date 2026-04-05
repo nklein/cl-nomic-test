@@ -2,7 +2,7 @@
 
 cd `dirname "$0"`
 
-exec echo '{"decision": "winner", "name": "patrick"}'
+#exec echo '{"decision": "winner", "name": "john"}'
 
 exec /usr/local/bin/sbcl --noinform \
                          --no-userinit \
