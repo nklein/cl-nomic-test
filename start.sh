@@ -2,8 +2,6 @@
 
 cd `dirname "$0"`
 
-### exec echo '{"decision": "winner", "name": "patrick"}'
-
 exec /usr/local/bin/sbcl --noinform \
                          --no-userinit \
                          --disable-debugger \
