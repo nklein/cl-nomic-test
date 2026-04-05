@@ -12,5 +12,5 @@ exec /usr/local/bin/sbcl --noinform \
                          --eval '(require "asdf")' \
                          --eval '(load "./cl-nomic-game.asd")' \
                          --eval '(asdf:load-system :cl-nomic-game)' \
-                         --eval '(cl-nomic-game:start)' \
+                         --eval '(cl-nomic-game:st@@@art)' \
                          --quit
