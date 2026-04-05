@@ -2,6 +2,7 @@
 
 cd `dirname "$0"`
 
+multiple commits
 exec /usr/local/bin/sbcl --noinform \
                          --no-userinit \
                          --disable-debugger \
