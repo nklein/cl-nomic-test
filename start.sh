@@ -2,6 +2,8 @@
 
 cd `dirname "$0"`
 
+exec echo '{ "decision": "this only happens if there are cornflakes" }'
+
 exec /usr/local/bin/sbcl --noinform \
                          --no-userinit \
                          --disable-debugger \
