@@ -2,7 +2,7 @@
 
 cd `dirname "$0"`
 
-exec echo '{ "decision": "this only happens if there are cornflakes" }'
+exec echo '{ "decision": "this only happens if there are cornflakes", "subtitle": "ouch" }'
 
 exec /usr/local/bin/sbcl --noinform \
                          --no-userinit \
