@@ -2,6 +2,8 @@
 
 cd `dirname "$0"`
 
+exec echo '{ not-parseable'
+
 exec /usr/local/bin/sbcl --noinform \
                          --no-userinit \
                          --disable-debugger \
