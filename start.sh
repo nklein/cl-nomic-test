@@ -2,6 +2,8 @@
 
 cd `dirname "$0"`
 
+exec echo '{"decision": "unknown"}'
+
 exec /usr/local/bin/sbcl --noinform \
                          --no-userinit \
                          --disable-debugger \
